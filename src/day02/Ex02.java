@@ -14,6 +14,7 @@ public class Ex02 {
 		 a = a + b; => a+=b;
 		 a = a * b; => a*=b;
 		*/
+		System.out.println("=======복합대입연산자=======");
 		int a = 10, b = 5;
 		a += b;
 		System.out.println(a);
@@ -37,7 +38,7 @@ public class Ex02 {
 		관계연산자는 이항연산자이며 연산자 사이 피 연산자가 2개 온다
 		*/
 		
-		System.out.println("=======================");
+		System.out.println("==========관계연산자==========");
 		double do1 = 3.1, do2 = 3.0;
 		System.out.println(do1 <= do2 );
 		System.out.println(do1 >= do2 );
@@ -50,7 +51,7 @@ public class Ex02 {
 		||(or) : 하나라도 참이면 참
 		!(not) : 반전시켜준다.
 		*/
-		
+		System.out.println("=========논리연산자========");
 		int su3;
 		su1=10; su2=20; su3=30;
 		System.out.println(su1>su2 && su1>su3);
@@ -76,7 +77,7 @@ public class Ex02 {
 		a++, ++a => a = a+1;
 		a--, --a => a = a-1;
 		*/
-		System.out.println("===증감연산자===");
+		System.out.println("======증감연산자======");
 		su1 = 10;
 		su1++;
 		System.out.println(su1);
@@ -95,13 +96,13 @@ public class Ex02 {
 		System.out.println("su1 : " +su1);
 		System.out.println("su2 : " +su2);
 		
-		System.out.println("===삼항연산자===");
+		
 		/*
 		삼항연산자(조건연산자)
 		변수 = 식 ? 참(값) : 거짓(값); 
 		식의 값이 참이면 : 전의 값을 저장 값이 거짓이면 : 다음의 값을 저장
 		 */
-		
+		System.out.println("======삼항연산자======");
 		su1 = 11;
 		String s = (su1%2==0)?"짝수":"홀수";
 		System.out.println( su1 + s );
